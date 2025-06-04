@@ -16,3 +16,5 @@ print("\n")
 
 group = df.groupby('City')['Salary'].mean()
 print(group)
+
+df.to_csv('dz_ver1.csv', index=False)
